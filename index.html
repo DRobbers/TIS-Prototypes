@@ -1,0 +1,69 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>An example from http://rwd.education</title>
+        <meta
+            name="description"
+            content="An example from the book, 'Responsive Web Design with HTML5 and CSS' by Ben Frain"
+        />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="theme-color" content="#ff9900" />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <header class="header rwd-MastHead">
+        <a href="/" class="rwd-Logo">
+           
+        </a>
+        <nav class="rwd-Nav">
+            <a class="rwd-Nav_Link" href="#about">About</a>
+            <a class="rwd-Nav_Link" href="#reviews">Reviews</a>
+            <a class="rwd-Nav_Link" href="#chapters">Chapter List</a>
+            <a class="rwd-Nav_Link" href="#buy">Buy</a>
+            <button
+                type="button"
+                class="rwd-Nav_Link"
+                aria-controls="downloadPanel"
+            >
+                Code
+            </button>
+            <div
+                id="downloadPanelClickMask"
+                class="rwd-DownloadPanel_Mask"
+                data-active="false"
+            ></div>
+            <dialog id="downloadPanel">
+                <form method="dialog" class="rwd-DownloadPanel">
+                    <button class="rwd-DownloadPanel_Dismiss" type="reset">
+                        Close
+                    </button>
+                    <p class="rwd-DownloadPanel_Title">
+                        <svg class="rwd-DownloadPanel_SVG">
+                            <use xlink:href="#code"></use>
+                        </svg>
+
+                        Download Code
+                    </p>
+                    <div class="rwd-DownloadPanel_Links">
+                        <a
+                            href="https://github.com/PacktPublishing/Responsive-Web-Design-with-HTML5-and-CSS-Third-Edition/archive/master.zip"
+                            class="rwd-DownloadPanel_Link"
+                        >
+                            3rd Edition
+                        </a>
+                        <a
+                            href="https://github.com/benfrain/rwd/archive/master.zip"
+                            class="rwd-DownloadPanel_Link"
+                        >
+                            4th Edition
+                        </a>
+                    </div>
+                </form>
+            </dialog>
+        </nav>
+        <div class="bg-multi"></div>
+
+    </header>
+    <body>
+    </body>
+</html>
